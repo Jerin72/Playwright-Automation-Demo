@@ -1,0 +1,34 @@
+[{
+
+    "validusername":"standard_user",
+    "validpassword":"secret_sauce",
+    "invalidusername":"invalid_user",
+    "invalidpassword":"invalid_password",
+    "buy_product":"Sauce Labs Backpack",
+    "firstname":"Jerin",
+    "lastname":"Varghese",
+    "zipcode":"12345"
+},
+{
+    "validusername":"standard_user",
+    "validpassword":"secret_sauce",
+    "invalidusername":"ABC Uer",
+    "invalidpassword":"62W7YUDSCX",
+    "buy_product":"Sauce Labs Bolt T-Shirt",
+    "firstname":"Remya",
+    "lastname":"Arun",
+    "zipcode":"1223345"
+
+},
+{
+    "validusername":"standard_user",
+    "validpassword":"secret_sauce",
+    "invalidusername":"ABC Uer",
+    "invalidpassword":"62W7YUDSCX",
+    "buy_product":"Sauce Labs Onesie",
+    "firstname":"Arya",
+    "lastname":"Arun",
+    "zipcode":"122345"
+
+}]
+
