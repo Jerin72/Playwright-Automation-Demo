@@ -1,6 +1,6 @@
 import test from "@playwright/test";
 
-test("Drag and Drop Demo", async ({ page }) => {
+test("@web Drag and Drop Demo", async ({ page }) => {
 
     await page.goto("https://selenium.qabible.in/drag-drop.php")
 

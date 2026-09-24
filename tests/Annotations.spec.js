@@ -26,7 +26,7 @@ test.skip("Fourth Test Case",async ({page})=>
     console.log("Displaying Fourth Test Case")
 })
 
-test("Fifth Test Case",async ({page})=>
+test("@web Fifth Test Case",async ({page})=>
 {
     console.log("Displaying Fifth Test Case")
 })

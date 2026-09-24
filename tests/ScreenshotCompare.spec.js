@@ -7,7 +7,7 @@ test("Screenshot", async ({page})=>{
     await inputform.screenshot({path:"input.png"})
 })
 
-test.only("Visual Comparision", async ({page})=>{
+test("Visual Comparision", async ({page})=>{
     await page.goto("https://selenium.qabible.in/")
     //await page.goto("https://demoqa.com/upload-download")
     await expect(page).toHaveScreenshot("screen2.png")   //first time it will fail but at the same time it will take a screenshot
