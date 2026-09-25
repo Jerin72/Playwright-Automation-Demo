@@ -47,6 +47,6 @@ test("Checkbox Locator",async ({page})=>{
     console.log(isCheck1)
     await expect(isCheck1).toBeFalsy()
     await expect(checkbox).not.toBeChecked()  //checkbox assertion
-    await page.pause()
+   //await page.pause()
 })
 

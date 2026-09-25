@@ -12,7 +12,7 @@ test("Alert Modal",async ({page}) => {
     await Savechangesbtn.click()
     const Closebtn=page.getByRole('button',{name:"Close"}).nth(1)
     await Closebtn.click()
-    await page.pause()
+    //await page.pause()
 
 })
 

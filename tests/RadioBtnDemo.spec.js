@@ -12,5 +12,5 @@ test("RadioButton Demo",async ({page})=>{
     console.log(value)
     await expect(value).toBe(true)
     await expect(radioBtn).toBeChecked()
-    await page.pause()
+    //await page.pause()
 })

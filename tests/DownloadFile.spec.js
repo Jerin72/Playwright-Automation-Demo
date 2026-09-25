@@ -7,7 +7,7 @@ test("File Download",async({page})=>{
     await download.click()
     const downloadfile=await downloadPromise
     await downloadfile.saveAs("C:/Users/Jerin Varghese/PlaywrightAutomation/Utils/download1.jpeg")
-    await page.pause()
+    //await page.pause()
     
 })
 

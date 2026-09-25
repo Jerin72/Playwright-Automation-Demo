@@ -30,7 +30,7 @@ test("Form Submit",async({page})=>{
     //expect(msg).toHaveText("Form has been submitted successfully!")  //to check if the text is present in the locator
     expect(msg).toHaveText(msg1)
     //expect(colormsg).toContain("Selected Color :"+color)
-    await page.pause()
+    //await page.pause()
 })
 
 //HOMEWORK

@@ -9,7 +9,7 @@ test("@web Drag and Drop Demo", async ({ page }) => {
     await page.waitForTimeout(3000)
     const targetpoint = page.locator("#mydropzone")
     await startpoint.dragTo(targetpoint)
-    await page.pause()
+    //await page.pause()
     //await page.waitForTimeout(3000)
 
 })

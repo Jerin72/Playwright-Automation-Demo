@@ -19,5 +19,5 @@ test("Dropdown",async ({page})=>{
     const colormsg=await selectedColor.textContent() //fetches the message in that location
     console.log(colormsg)
     expect(colormsg).toContain("Selected Color : "+color)  //assertion to check if the color is present in the message
-    await page.pause()
+    //await page.pause()
 })

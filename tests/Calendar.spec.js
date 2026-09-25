@@ -42,5 +42,5 @@ test("Date Picker Calendar",async ({page}) => {
     console.log("Selected Date is", await msg1.textContent())
     await expect(msg1).toHaveText("Date : 13/07/2035")  // toContain can be used to check if the substring is present in the string
 
-    await page.pause()
+    //await page.pause()
     })
